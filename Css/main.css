@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.item .inner .text {
+  background-color: rgba(255, 255, 255, 0.507);
+}
+.item .inner .text p {
+  font-size: 0.875rem;
+}
+
+.item .inner img {
+  cursor: pointer;
+}
+
+
+.pop {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.pop-inner {
+    background-image: url(../Images/1.jpg);
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.pop-inner i {
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+@media (max-width:565px) {
+  .pop-inner {
+    height: 50%;
+    width: 100%;
+  }
+}
